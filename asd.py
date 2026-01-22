@@ -1,2 +1,4 @@
-a ="vision"
-print(a, end="da")
+name = "vision"
+surname ="thapa"
+print (name ,end ="  " )
+print(surname)

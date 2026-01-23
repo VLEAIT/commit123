@@ -22,3 +22,9 @@ print('hello')
 vision()
 
 # def as in used to declare a function and vision is user defined name given to that function and it can be used to reuse code miltiple times 
+big = max('abcdABCD')#max function is used to like find the alphabet that is in last of series in alphabet and a>A 
+print(big)
+
+small =min("abcd")#min is opposite of max
+print(small)
+

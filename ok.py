@@ -28,3 +28,51 @@ print(big)
 small =min("abcd")#min is opposite of max
 print(small)
 
+
+def name(your):# your is parameter that user can have as well as the function name
+    if your == "hero":
+       print('i donot know')
+    elif your == "gun":
+        print('fuck you')
+name("hero")
+name('gun')
+
+# return value 
+def greet():
+    return "hello"
+
+print(greet(),"vision")
+
+
+def new(A):
+    if A == "hero":
+        return A + "is hero"
+    
+print(new("hero"))    
+
+# loops and iteration chapter 5
+
+v =5 
+while v>0:
+    print(v)
+    v=v-1
+print('blastoff')
+
+
+# loops 
+for i in [5,4,3,2,1]:
+    print(i)
+print("blastoff")    
+
+friends =["vision","suresh", "akash", "nepal" ]
+for friend in friends:
+    print('happy day', friend)
+print('done!')    
+
+# loop idioms
+
+largest_number=-1
+for the_num in [9,41,12,3,74,15]:
+    if(the_num>largest_number):
+        largest_number=the_num
+print(largest_number)   

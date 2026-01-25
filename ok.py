@@ -76,3 +76,10 @@ for the_num in [9,41,12,3,74,15]:
     if(the_num>largest_number):
         largest_number=the_num
 print(largest_number)   
+
+# more loop patterns
+num =0
+for thing in [1,2,3,4,62,231,231,54,12,3123,13]:
+    num =num +1
+    print(thing)
+print("number is",num)    

@@ -117,4 +117,10 @@ no = 100
 for small in smalls:
     if small < 100:
         no == small
-print(no)        
+print(no)
+
+
+for i in range(1,10,1):
+    print(i)
+
+    

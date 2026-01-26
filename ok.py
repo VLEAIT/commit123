@@ -102,3 +102,8 @@ for number in [1,32,4345,123,54,23]:
 print(average)
    
 print('before')
+
+for ok in [1,23,412,41251,12314,1231]:
+    if ok >50:
+        print("the value ", ok)
+print('after')    

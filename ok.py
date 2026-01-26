@@ -83,3 +83,22 @@ for thing in [1,2,3,4,62,231,231,54,12,3123,13]:
     num =num +1
     print(thing)
 print("number is",num)    
+
+
+sum =0 
+for sumation in [1,3,4,1,23,123,123,231]:
+    sum =sum +sumation
+    print(sum , sumation)
+print(sum)    
+
+count = 0
+add =0
+average =0
+for number in [1,32,4345,123,54,23]:
+    count=count +1
+    add=add +number
+    average = add / count
+
+print(average)
+   
+print('before')

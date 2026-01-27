@@ -107,3 +107,31 @@ for ok in [1,23,412,41251,12314,1231]:
     if ok >50:
         print("the value ", ok)
 print('after')    
+
+
+# just want to new repo
+
+
+smalls =[1,3,4,12,4,123,123,123,123123,123]
+no = 100
+for small in smalls:
+    if small < 100:
+        no == small
+print(no)
+
+
+for i in range(1,10,1):
+    print(i)
+
+
+# searching using a boolean variable
+found = False
+for check in [1,4,3,6,1,2,6,31,6,123,213]:
+    if check == 1:
+        found =True
+        print(found, check)
+    
+print("the vlaue of 1 is", found)
+
+
+

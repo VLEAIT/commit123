@@ -145,3 +145,12 @@ for small in [1,2,3,4,5,6,7,8,9]:
 
 print('after', sv)
 
+# string data type
+
+fruits = input('what is your fvb')
+index = 0
+while index <len(fruits):
+    letter =  fruits[index]
+    print(letter,index)
+    index =index +1
+    

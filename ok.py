@@ -129,9 +129,19 @@ found = False
 for check in [1,4,3,6,1,2,6,31,6,123,213]:
     if check == 1:
         found =True
-        print(found, check)
+
+print(found, check)
     
 print("the vlaue of 1 is", found)
 
+# use of is and is not operators
+sv = None
+for small in [1,2,3,4,5,6,7,8,9]:
+    if sv is None:
+        sv = small
+    elif small < sv:
+        sv = small 
+    print(small ,sv)
 
+print('after', sv)
 

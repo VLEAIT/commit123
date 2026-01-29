@@ -155,7 +155,8 @@ while index <len(fruits):
     print(letter,index)
     index =index +1
 
-word = input("Enter a word")
+# word = input("Enter a word")
+word = "aeiou"
 gu = ["a","e","i","o","u"]
 co = 0
 
@@ -163,3 +164,13 @@ for leter in word:
     if leter in gu:
         co =co+1
 print(co)
+
+# slicing string 
+
+s ="nishant python"
+print(s[0:4])
+print(s[6:7])
+print(s[6:20])
+print(s[:4])
+print(s[8:])
+print(s[:])

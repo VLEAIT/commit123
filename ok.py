@@ -174,3 +174,16 @@ print(s[6:20])
 print(s[:4])
 print(s[8:])
 print(s[:])
+
+# string concatenation
+
+a = "vision"
+b = a + "thapa"
+print("b")
+c = a+' '+ b[6:]
+print(c)
+
+if "a" in c :
+    print("found it")
+
+

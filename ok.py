@@ -213,3 +213,19 @@ print('hello and go ther'.upper())
 stuff ="hello world"
 type(stuff)
 dir(stuff)
+
+game = "freefire"
+find = game.find('ee')
+print(find)
+
+aa = game.find('a')
+print(aa)
+
+hv = game.upper()
+sj = stuff.lower()
+print(hv)
+print(sj)
+
+stuff2 = stuff.replace('world','hero')
+print(stuff2)
+

@@ -147,10 +147,12 @@ print('after', sv)
 
 # string data type
 
-fruits = input('what is your fvb')
+# fruits = input('what is your fvb')
+fruits ="banana"
 index = 0
 while index <len(fruits):
     letter =  fruits[index]
     print(letter,index)
     index =index +1
-    
+
+word = input("Enter a word")

@@ -156,3 +156,10 @@ while index <len(fruits):
     index =index +1
 
 word = input("Enter a word")
+gu = ["a","e","i","o","u"]
+co = 0
+
+for leter in word:
+    if leter in gu:
+        co =co+1
+print(co)

@@ -186,4 +186,14 @@ print(c)
 if "a" in c :
     print("found it")
 
+# string comaparision 
+word = input("write a word") # so when word are comapre aka string they are lexographincally
+if word == "banana":
+    print('all right ,bannas')
 
+if word < 'banana': 
+       print('your word,'+ word + ',comes before banana')
+elif word > 'banana':
+    print('your word' + word + 'comes after banana')
+else:
+    print("all done")           

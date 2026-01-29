@@ -187,7 +187,9 @@ if "a" in c :
     print("found it")
 
 # string comaparision 
-word = input("write a word") # so when word are comapre aka string they are lexographincally
+# word = input("write a word")
+word ="hello"
+ # so when word are comapre aka string they are lexographincally
 if word == "banana":
     print('all right ,bannas')
 
@@ -197,3 +199,17 @@ elif word > 'banana':
     print('your word' + word + 'comes after banana')
 else:
     print("all done")           
+
+
+# string library 
+
+greet  ="hello bob"
+zap = greet.lower()
+print(zap)
+print(greet)
+
+print('hello and go ther'.upper())
+
+stuff ="hello world"
+type(stuff)
+dir(stuff)

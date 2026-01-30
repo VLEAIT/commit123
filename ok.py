@@ -229,3 +229,28 @@ print(sj)
 stuff2 = stuff.replace('world','hero')
 print(stuff2)
 
+# stripping space 
+
+freet = '  hello world  '
+left = freet.lstrip()
+right =freet.rstrip()
+cover =freet.strip()
+
+print(left,right,cover)
+
+# prefixes
+
+line ="please have a nice day"
+print(line.startswith('please'))
+print(line.startswith('p'))
+
+data = "Nepal is a beautiful country and landlock country"
+at =data.find('N')
+print(at)
+
+ap = data.find(' ',at)
+print(ap)
+
+host = data[at+1 : ap]
+print(host)
+

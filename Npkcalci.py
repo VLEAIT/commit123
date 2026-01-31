@@ -57,3 +57,35 @@ class Soil_calci:
            print(" k =",self.K,"High")
         else:
            print( "enter correct value")    
+    
+    def amount(self):
+           self.reqRice_N = 120
+           self.reqRice_P = 40
+           self.reqRice_K = 40
+
+           self.reqTomo_N = 200
+           self.reqTomo_P = 150
+           self.reqTomo_K =100
+
+           self.reqPota_N =150
+           self.reqPota_P =150
+           self.reqPota_K =90
+
+    def calculation(self):
+       self.soil_score = (self.Nutrient_N+self.Nutrient_P+self.Nutrient_K)/3
+       if self.crop == "Rice":
+          self.Deficit_N = self.Nutrient_N-self.reqRice_N
+          self.Deficit_P = self.Nutrient_P-self.reqRice_P
+          self.Deficit_K = self.Nutrient_K-self.reqRice_K
+       elif self.crop == "Tomato":
+          self.Deficit_N = self.Nutrient_N-self.reqTomo_N
+          self.Deficit_P = self.Nutrient_P-self.reqTomo_P
+          self.Deficit_K = self.Nutrient_K-self.reqTomo_K
+       elif self.crop == "Potato":
+          self.Deficit_N = self.Nutrient_N-self.reqPota_N
+          self.Deficit_P = self.Nutrient_P-self.reqPota_P
+          self.Deficit_K = self.Nutrient_K-self.reqPota_K
+             
+          
+    
+

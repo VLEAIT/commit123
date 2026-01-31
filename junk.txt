@@ -1,0 +1,41 @@
+N =input("value of nitrogen ")
+P =input("value of potassium")
+K =input("value of phosphorous")
+
+if N < 50 :
+    Nutrient_N = 1
+    print(" n =",N,"Low")
+elif N>50 or N<120:
+    Nutrient_N = 2
+    print(" n =",N,"Medium")
+elif N>120:
+    Nutrient_N=3
+    print(" n =",N,"High")
+else:
+    print("enter correct value")
+
+if P < 15:
+    Nutrient_P = 1
+    print(" p =",P,"Low")
+elif P > 15 or P <40:
+    Nutrient_P = 2
+    print(" p =",P,"Medium")
+elif P > 40:
+    Nutrient_P =3
+    print(" p =",P,"High")
+else:
+    print("enter correct value")
+
+if K  < 80:
+    Nutrient_K = 1
+    print(" k =",K,"low")
+elif K >80 or K <200:
+    Nutrient_K = 2
+    print(" k =",K,"Medium")
+elif K > 200:
+    Nutrient_K =3
+    print(" k =",K,"High")
+else:
+    print( "enter correct value")
+
+soil_score =(Nutrient_N+Nutrient_P+Nutrient_K)/3

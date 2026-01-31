@@ -32,7 +32,7 @@ class Soil_calci:
            self.Nutrient_P = 1
            self.Nutrient_PV ="Low"
            print(" p =",self.P,"Low")
-        elif 15 <= self.p <= 40:
+        elif 15 <= self.P <= 40:
            self.Nutrient_P = 2
            self.Nutrient_PV ="Medium"
            print(" p =",self.P,"Medium")
@@ -97,8 +97,14 @@ class Soil_calci:
        self.MapNeed =self.reqPm /0.46
        self.DapNeed =self.reqKm /0.60
       
-   
-             
-          
+  
+soil = Soil_calci()
+
+soil.npk_input()
+soil.imp_input()
+soil.input()
+soil.amount()
+soil.calculation()
+soil.need()          
     
 

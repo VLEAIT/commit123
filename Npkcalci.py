@@ -74,17 +74,30 @@ class Soil_calci:
     def calculation(self):
        self.soil_score = (self.Nutrient_N+self.Nutrient_P+self.Nutrient_K)/3
        if self.crop == "Rice":
-          self.Deficit_N = self.Nutrient_N-self.reqRice_N
-          self.Deficit_P = self.Nutrient_P-self.reqRice_P
-          self.Deficit_K = self.Nutrient_K-self.reqRice_K
+          self.Deficit_N = self.N-self.reqRice_N
+          self.Deficit_P = self.P-self.reqRice_P
+          self.Deficit_K = self.K-self.reqRice_K
        elif self.crop == "Tomato":
-          self.Deficit_N = self.Nutrient_N-self.reqTomo_N
-          self.Deficit_P = self.Nutrient_P-self.reqTomo_P
-          self.Deficit_K = self.Nutrient_K-self.reqTomo_K
+          self.Deficit_N = self.N-self.reqTomo_N
+          self.Deficit_P = self.P-self.reqTomo_P
+          self.Deficit_K = self.K-self.reqTomo_K
        elif self.crop == "Potato":
-          self.Deficit_N = self.Nutrient_N-self.reqPota_N
-          self.Deficit_P = self.Nutrient_P-self.reqPota_P
-          self.Deficit_K = self.Nutrient_K-self.reqPota_K
+          self.Deficit_N = self.N-self.reqPota_N
+          self.Deficit_P = self.P-self.reqPota_P
+          self.Deficit_K = self.K-self.reqPota_K
+
+    def need(self):
+       self.reqN =self.Deficit_N/10000
+       self.reqP =self.Deficit_P/10000
+       self.reqK=self.Deficit_K/10000
+       self.reqNm = self.reqN *self.area
+       self.reqPm=self.reqP*self.area
+       self.reqKm=self.reqK*self.area
+       self.UreaNeed =self.reqNm / 0.46
+       self.MapNeed =self.reqPm /0.46
+       self.DapNeed =self.reqKm /0.60
+      
+   
              
           
     

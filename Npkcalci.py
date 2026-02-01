@@ -71,6 +71,8 @@ class Soil_calci:
            self.reqPota_P =150
            self.reqPota_K =90
 
+      
+           
     def calculation(self):
        self.soil_score = (self.Nutrient_N+self.Nutrient_P+self.Nutrient_K)/3
        if self.crop == "Rice":
@@ -96,7 +98,18 @@ class Soil_calci:
        self.UreaNeed =self.reqNm / 0.46
        self.MapNeed =self.reqPm /0.46
        self.DapNeed =self.reqKm /0.60
-      
+
+    def soil_sco(self):
+         self.soil_quality =(self.Nutrient_P+self.Nutrient_N+self.Nutrient_K)/3
+
+    def display(self):
+       print("soil summary")
+       print("Soil Score outof 3 is",self.soil_quality)
+       print("Required Urea is",self.UreaNeed) 
+       print("Required MAP is", self.MapNeed)
+       print("Required DAP is ",self.DapNeed)
+
+   
   
 soil = Soil_calci()
 
@@ -105,6 +118,8 @@ soil.imp_input()
 soil.input()
 soil.amount()
 soil.calculation()
-soil.need()          
+soil.need() 
+soil.soil_sco()
+soil.display()  
     
 

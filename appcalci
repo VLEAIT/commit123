@@ -1,0 +1,24 @@
+from email.message import EmailMessage
+from app1 import password
+class python_app():
+
+    def emai_sender(self):
+        self.email_sender ="vzonthapa333@gmail.com"
+        self.password =password
+        self.email_users=input("enter the email with comma")
+        self.email_reciever=[self.email_reciever.strip() for self.email_reciever in self.email_users.split(",")]
+        self.enter = input("Do uou want to enter email")
+        self.enter = self.enter.lower() 
+        if self.enter == "n":
+            print("no any input")
+        elif self.enter == "y":
+            for i in len(self.email_reciever):
+                self.subject="Invitation to my story"
+                self.body=" the body is the most important"
+                self.em =EmailMessage
+                self.em["From"]=self.email_sender
+                self.em["To"]=self.email_reciever[i]
+                self.em["subject"]=self.subject
+                self.em.set_content(self.body)
+                
+

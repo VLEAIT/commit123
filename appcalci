@@ -1,5 +1,7 @@
 from email.message import EmailMessage
 from app1 import password
+import ssl
+
 class python_app():
 
     def emai_sender(self):
@@ -20,5 +22,7 @@ class python_app():
                 self.em["To"]=self.email_reciever[i]
                 self.em["subject"]=self.subject
                 self.em.set_content(self.body)
-                
+                self.context = ssl.create_default_context
 
+
+  

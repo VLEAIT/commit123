@@ -1,0 +1,90 @@
+1 import disclamer
+
+
+2.methodology  based hunxa and so we are going to teach method not tools because tool changes or is down
+
+this is used by both the good guys and bad guys
+
+
+start 
+
+1,what is osint
+
+
+in intelligence lifecycle we are majorly focusin on collection
+
+
+2,sock puppets
+online identity of who you are not fake id and alternate profile
+
+might have a fake facebook so that  tie back to you this fake id should have any kind of link or relation with your personal id as 
+or any phone you have tie without you
+create a account that has history we should have fake data to look legit
+
+
+3,create sock puppets
+sock hunter
+https://www.fakenamegenerator.com/ 
+https://thispersondoesnotexist.com/
+jake creps blog
+@ShakiraSecurity 
+catfish
+when it comes to think like revrse photo search and all that thing
+
+
+bruner phone and i am not a investigator
+
+
+ipadress
+in theory can use vpn and need more verification make your perosna as you need
+health adams
+
+4,search engine operators
+google
+duckduckgo
+bing
+Yandex russianbased
+bai du Asian based
+
+wgu c996 site:reddit.com(not specific)
+"wgu c996" site:reddit.com(specifc order)
+"wgu c067" AND "professor leornard" site:reddit.com(with)
+"wgu c067" OR "professor leornard" site:reddit.com(anyone)
+"health adams" the *mentor(mentor is a wild card)
+
+so story of tesla where their password was leacked of help center like ticketing system 
+site:tesla.com password
+
+
+site:tesla.com password filetype:pdf(xlsx)(docx)
+you can the keyworld to pass also
+think in anykind of related to password
+
+"tesla.com" filetype:xlsx password
+
+site:tesla.com -www (removes www) look for subdomain
+site:tesla.com -www -forums (removes forums also)
+"hero" -superman -spiderman
+"health adams" intext:password site:twitter.com
+"health adams" inurl:password
+"health adams" intitle:password
+google.com/advance_search
+
+
+5,Reverse Image searching
+googleimage search 
+Yandex image search
+tineye
+
+
+<Viewing EXIF Data)
+exif is exhangable image file
+
+it is less relevant now but not secure
+ 
+
+https://www.canva.com/design/DAHBBD8B5BA/NkknE9AV6sGM8O-FkRWxIQ/view?utm_content=DAHBBD8B5BA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h956c7ca09c
+
+
+ 
+ 
